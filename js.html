@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>first header</h1>
+    <h2>second header</h2>
+    <h3>third header</h3>
+    <p>This is a paragraph.</p>
+    <img src="dark  knight.jpeg" alt="Dark Knight Image" width="300" height="200">
+    <a href="https://www.example.com">Visit Example</a>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <button type="submit" onclick="hi()">Submit</button>
+    </form>
+    <p id="demo"></p>
+    <script>
+        console.log("5");
+        console.log(23%3);
+        function add(a,b){
+            return a + b;
+        }
+        function greet(name,age){
+            return `Hello ${name}, you are ${age} years old.`;
+        }
+        console.log(greet("John", 30));
+        console.log(add(5, 10));
+        function hi(){
+            const name=document.getElementById('name').value;
+            document.getElementById('demo').innerText = name;
+        }
+    </script>
+</body>
+</html>
