@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yuvarajBalasubramani/PT-Fullstack/issues"
   },
-  "homepage": "https://github.com/yuvarajBalasubramani/PT-Fullstack#readme"
+  "homepage": "https://github.com/yuvarajBalasubramani/PT-Fullstack#readme",
+  "dependencies": {
+    "react-router-dom": "^7.6.2"
+  }
 }
