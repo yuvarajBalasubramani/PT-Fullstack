@@ -23,6 +23,7 @@ function App() {
       <Route path='/State' element={<State />} />
       <Route path='/Form' element={<Form />} />
       <Route path='/Effect' element={<Effect />} />
+      <Route path='/reducer' element={<Reducer />} />
     </Routes>
     <Skill skill={['React','Node','Express','MongoDB']}/>
     <h1>My Skills</h1>
