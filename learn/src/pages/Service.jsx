@@ -1,6 +1,6 @@
 import React, { use } from 'react';
 import { InfoContext } from '../hooks/InfoContext';
-const Sevice = () => {
+const Service = () => {
     const info=use(InfoContext);
     return (
         <div>
