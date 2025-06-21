@@ -1,4 +1,4 @@
-import Skills from '../Skiills'
+import Skills from '../Skills'
 
 const Home = () => {
     return (
